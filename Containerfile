@@ -4,4 +4,4 @@ ADD https://github.com/roboll/helmfile/releases/download/v0.138.7/helmfile_linux
 
 RUN chmod +x /usr/local/bin/helmfile
 USER 1001
-ENTRYPOINT ["/usr/local/bin/helmfile"]
+ENTRYPOINT ["java -version"]
